@@ -103,22 +103,22 @@ namespace SportsBet.DepthChartManager.Interfaces
                 return;
             }
 
-            var result = new StringBuilder("(" + node.Value?.Id + ")");
+            var result = new StringBuilder("[(" + node.Value?.Id + ")");
             var nodeP = node?.Previous;
 
             while (nodeP != null)
             {
-                result.Insert(0, nodeP.Value?.Id + " ");
+                result.Insert(0, nodeP.Value?.Id + ", ");
                 nodeP = nodeP?.Previous;
             }
 
             node = node?.Next;
             while (node != null)
             {
-                result.Append(" " + node.Value?.Id);
+                result.Append(" , " + node.Value?.Id);
                 node = node.Next;
             }
-
+            result.Append("]");
             Console.WriteLine(result);
             Console.WriteLine();
         }

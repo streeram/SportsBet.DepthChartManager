@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sriramnarayanan/Dev/SportsBet.DepthChartManager/SportsBet.DepthChartManager/SportsBet.DepthChartManager.csproj": {}
+    "/Users/sriramnarayanan/Projects/SportsBet.DepthChartManager/SportsBet.DepthChartManager/SportsBet.DepthChartManager.csproj": {}
   },
   "projects": {
-    "/Users/sriramnarayanan/Dev/SportsBet.DepthChartManager/SportsBet.DepthChartManager/SportsBet.DepthChartManager.csproj": {
+    "/Users/sriramnarayanan/Projects/SportsBet.DepthChartManager/SportsBet.DepthChartManager/SportsBet.DepthChartManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sriramnarayanan/Dev/SportsBet.DepthChartManager/SportsBet.DepthChartManager/SportsBet.DepthChartManager.csproj",
+        "projectUniqueName": "/Users/sriramnarayanan/Projects/SportsBet.DepthChartManager/SportsBet.DepthChartManager/SportsBet.DepthChartManager.csproj",
         "projectName": "SportsBet.DepthChartManager",
-        "projectPath": "/Users/sriramnarayanan/Dev/SportsBet.DepthChartManager/SportsBet.DepthChartManager/SportsBet.DepthChartManager.csproj",
+        "projectPath": "/Users/sriramnarayanan/Projects/SportsBet.DepthChartManager/SportsBet.DepthChartManager/SportsBet.DepthChartManager.csproj",
         "packagesPath": "/Users/sriramnarayanan/.nuget/packages/",
-        "outputPath": "/Users/sriramnarayanan/Dev/SportsBet.DepthChartManager/SportsBet.DepthChartManager/obj/",
+        "outputPath": "/Users/sriramnarayanan/Projects/SportsBet.DepthChartManager/SportsBet.DepthChartManager/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sriramnarayanan/.nuget/NuGet/NuGet.Config"

@@ -59,14 +59,14 @@ namespace SportsBet.DepthChartManager
                 throw new ArgumentNullException("Positions are undefined");
             }
             
-            IndicateNode(Positions[NFLPositionEnum.QB.GetDescription()]?.First, $"{NFLPositionEnum.QB.GetDescription()} position players");
-            IndicateNode(Positions[NFLPositionEnum.WR.GetDescription()]?.First, $"{NFLPositionEnum.WR.GetDescription()} position players");
-            IndicateNode(Positions[NFLPositionEnum.RB.GetDescription()]?.First, $"{NFLPositionEnum.RB.GetDescription()} position players");
-            IndicateNode(Positions[NFLPositionEnum.TE.GetDescription()]?.First, $"{NFLPositionEnum.TE.GetDescription()} position players");
-            IndicateNode(Positions[NFLPositionEnum.K.GetDescription()]?.First, $"{NFLPositionEnum.K.GetDescription()} position players");
-            IndicateNode(Positions[NFLPositionEnum.P.GetDescription()]?.First, $"{NFLPositionEnum.P.GetDescription()} position players");
-            IndicateNode(Positions[NFLPositionEnum.KR.GetDescription()]?.First, $"{NFLPositionEnum.KR.GetDescription()} position players");
-            IndicateNode(Positions[NFLPositionEnum.PR.GetDescription()]?.First, $"{NFLPositionEnum.PR.GetDescription()} position players");
+            IndicateNode(Positions[NFLPositionEnum.QB.GetDescription()]?.First, $"{NFLPositionEnum.QB.GetDescription()}: ");
+            IndicateNode(Positions[NFLPositionEnum.WR.GetDescription()]?.First, $"{NFLPositionEnum.WR.GetDescription()}: ");
+            IndicateNode(Positions[NFLPositionEnum.RB.GetDescription()]?.First, $"{NFLPositionEnum.RB.GetDescription()}: ");
+            IndicateNode(Positions[NFLPositionEnum.TE.GetDescription()]?.First, $"{NFLPositionEnum.TE.GetDescription()}: ");
+            IndicateNode(Positions[NFLPositionEnum.K.GetDescription()]?.First, $"{NFLPositionEnum.K.GetDescription()}: ");
+            IndicateNode(Positions[NFLPositionEnum.P.GetDescription()]?.First, $"{NFLPositionEnum.P.GetDescription()}: ");
+            IndicateNode(Positions[NFLPositionEnum.KR.GetDescription()]?.First, $"{NFLPositionEnum.KR.GetDescription()}: ");
+            IndicateNode(Positions[NFLPositionEnum.PR.GetDescription()]?.First, $"{NFLPositionEnum.PR.GetDescription()}: ");
         }
     }
 }

@@ -61,17 +61,17 @@ namespace SportsBet.DepthChartManager
                 throw new ArgumentNullException("Positions are undefined");
             }
 
-            IndicateNode(Positions[MLBPositionEnum.SP.GetDescription()]?.First, $"{MLBPositionEnum.SP.GetDescription()} position players");
-            IndicateNode(Positions[MLBPositionEnum.RP.GetDescription()]?.First, $"{MLBPositionEnum.RP.GetDescription()} position players");
-            IndicateNode(Positions[MLBPositionEnum.C.GetDescription()]?.First, $"{MLBPositionEnum.C.GetDescription()} position players");
-            IndicateNode(Positions[MLBPositionEnum.OneB.GetDescription()]?.First, $"{MLBPositionEnum.OneB.GetDescription()} position players");
-            IndicateNode(Positions[MLBPositionEnum.TwoB.GetDescription()]?.First, $"{MLBPositionEnum.TwoB.GetDescription()} position players");
-            IndicateNode(Positions[MLBPositionEnum.ThreeB.GetDescription()]?.First, $"{MLBPositionEnum.ThreeB.GetDescription()} position players");
-            IndicateNode(Positions[MLBPositionEnum.SS.GetDescription()]?.First, $"{MLBPositionEnum.SS.GetDescription()} position players");
-            IndicateNode(Positions[MLBPositionEnum.LF.GetDescription()]?.First, $"{MLBPositionEnum.LF.GetDescription()} position players");
-            IndicateNode(Positions[MLBPositionEnum.RF.GetDescription()]?.First, $"{MLBPositionEnum.RF.GetDescription()} position players");
-            IndicateNode(Positions[MLBPositionEnum.CF.GetDescription()]?.First, $"{MLBPositionEnum.CF.GetDescription()} position players");
-            IndicateNode(Positions[MLBPositionEnum.DH.GetDescription()]?.First, $"{MLBPositionEnum.DH.GetDescription()} position players");
+            IndicateNode(Positions[MLBPositionEnum.SP.GetDescription()]?.First, $"{MLBPositionEnum.SP.GetDescription()}: ");
+            IndicateNode(Positions[MLBPositionEnum.RP.GetDescription()]?.First, $"{MLBPositionEnum.RP.GetDescription()}: ");
+            IndicateNode(Positions[MLBPositionEnum.C.GetDescription()]?.First, $"{MLBPositionEnum.C.GetDescription()}: ");
+            IndicateNode(Positions[MLBPositionEnum.OneB.GetDescription()]?.First, $"{MLBPositionEnum.OneB.GetDescription()}: ");
+            IndicateNode(Positions[MLBPositionEnum.TwoB.GetDescription()]?.First, $"{MLBPositionEnum.TwoB.GetDescription()}: ");
+            IndicateNode(Positions[MLBPositionEnum.ThreeB.GetDescription()]?.First, $"{MLBPositionEnum.ThreeB.GetDescription()}: ");
+            IndicateNode(Positions[MLBPositionEnum.SS.GetDescription()]?.First, $"{MLBPositionEnum.SS.GetDescription()}: ");
+            IndicateNode(Positions[MLBPositionEnum.LF.GetDescription()]?.First, $"{MLBPositionEnum.LF.GetDescription()}: ");
+            IndicateNode(Positions[MLBPositionEnum.RF.GetDescription()]?.First, $"{MLBPositionEnum.RF.GetDescription()}: ");
+            IndicateNode(Positions[MLBPositionEnum.CF.GetDescription()]?.First, $"{MLBPositionEnum.CF.GetDescription()}: ");
+            IndicateNode(Positions[MLBPositionEnum.DH.GetDescription()]?.First, $"{MLBPositionEnum.DH.GetDescription()}: ");
         }
     }
 }
