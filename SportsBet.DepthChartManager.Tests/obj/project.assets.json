@@ -1802,6 +1802,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "SportsBet.DepthChartManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SportsBet.DepthChartManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SportsBet.DepthChartManager.dll": {}
+        }
       }
     }
   },
@@ -6098,11 +6108,17 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "SportsBet.DepthChartManager/1.0.0": {
+      "type": "project",
+      "path": "../SportsBet.DepthChartManager/SportsBet.DepthChartManager.csproj",
+      "msbuildProject": "../SportsBet.DepthChartManager/SportsBet.DepthChartManager.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 17.1.0",
+      "SportsBet.DepthChartManager >= 1.0.0",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -6114,11 +6130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sriramnarayanan/Dev/SportsBet.DepthChartManager/SportsBet.DepthChartManager.Tests/SportsBet.DepthChartManager.Tests.csproj",
+      "projectUniqueName": "/Users/sriramnarayanan/Projects/SportsBet.DepthChartManager/SportsBet.DepthChartManager.Tests/SportsBet.DepthChartManager.Tests.csproj",
       "projectName": "SportsBet.DepthChartManager.Tests",
-      "projectPath": "/Users/sriramnarayanan/Dev/SportsBet.DepthChartManager/SportsBet.DepthChartManager.Tests/SportsBet.DepthChartManager.Tests.csproj",
+      "projectPath": "/Users/sriramnarayanan/Projects/SportsBet.DepthChartManager/SportsBet.DepthChartManager.Tests/SportsBet.DepthChartManager.Tests.csproj",
       "packagesPath": "/Users/sriramnarayanan/.nuget/packages/",
-      "outputPath": "/Users/sriramnarayanan/Dev/SportsBet.DepthChartManager/SportsBet.DepthChartManager.Tests/obj/",
+      "outputPath": "/Users/sriramnarayanan/Projects/SportsBet.DepthChartManager/SportsBet.DepthChartManager.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sriramnarayanan/.nuget/NuGet/NuGet.Config"
@@ -6132,7 +6148,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/sriramnarayanan/Projects/SportsBet.DepthChartManager/SportsBet.DepthChartManager/SportsBet.DepthChartManager.csproj": {
+              "projectPath": "/Users/sriramnarayanan/Projects/SportsBet.DepthChartManager/SportsBet.DepthChartManager/SportsBet.DepthChartManager.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

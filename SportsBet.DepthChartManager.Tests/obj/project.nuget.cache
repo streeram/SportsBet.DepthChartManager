@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JPPDVSNFumtEFWj3xkbCSZsiLqHaXn9SOtjQmH8uY03sdYFfASEEVc+KXh5XE4RrU/GL+tVHvJ/61OrP1ejJSg==",
+  "dgSpecHash": "I/0GnNge0gHiTHJs65JZWr3PR69qlpQgOTba7538wJGD0F9oT6XukOc8ZxfxqtBv2tsyDfXJw9NNT6nLayV1bg==",
   "success": true,
-  "projectFilePath": "/Users/sriramnarayanan/Dev/SportsBet.DepthChartManager/SportsBet.DepthChartManager.Tests/SportsBet.DepthChartManager.Tests.csproj",
+  "projectFilePath": "/Users/sriramnarayanan/Projects/SportsBet.DepthChartManager/SportsBet.DepthChartManager.Tests/SportsBet.DepthChartManager.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/sriramnarayanan/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/sriramnarayanan/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",
