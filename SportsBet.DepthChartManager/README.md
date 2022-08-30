@@ -3,7 +3,15 @@
 This is a very basic console application to test the Depth chart management logic for a given sport. To run this app, please install .Net Core 6.x SDK/Runtime in your machine and the clone this repo and hit the below commands in shell/cmd.
 
 ```
-dotnet run
+cd /SportsBet.DepthChartManager/
+dotnet restore && dotnet run
+```
+
+For running automated unit test cases
+
+```
+cd /SportsBet.DepthChartManager.Tests/
+dotnet test
 ```
 
 Most team sports have a depth chart (a ranking of each player) for each position they have. For example in NFL: 
