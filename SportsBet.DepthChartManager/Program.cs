@@ -1,9 +1,11 @@
 ﻿using SportsBet.DepthChartManager.Models;
 using SportsBet.DepthChartManager.Helpers;
+using SportsBet.DepthChartManager.Factory;
 namespace SportsBet.DepthChartManager
 {
     public class Program
     {
+        private static IDepthChartManagerFactory factory = new DepthChartManagerFactory();
         static void Main(string[] args)
         {
             NFL();
@@ -12,7 +14,7 @@ namespace SportsBet.DepthChartManager
 
         private static void NFL()
         {
-            var chartManager = new NFLDepthChartManager();
+            var chartManager = factory.CreateChartManager(SportEnum.NFL.GetDescription());
             
             var player1 = new Player
             {
@@ -61,7 +63,7 @@ namespace SportsBet.DepthChartManager
 
         private static void MLB()
         {
-            var chartManager = new MLBDepthChartManager();
+            var chartManager = factory.CreateChartManager(SportEnum.MLB.GetDescription());
             
             var player1 = new Player
             {
